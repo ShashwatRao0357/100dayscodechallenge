@@ -5,7 +5,7 @@ int main() {
     printf("Enter the number of elements:");
     scanf("%d", &n);
     int nums[n];
-    printf("Enter the elements(comma seperated):");
+    printf("Enter the elements(space seperated):");
     for(i = 0; i < n; i++) {
         scanf("%d", &nums[i]);
     }
